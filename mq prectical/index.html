@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <style>
+        header{
+            border: 2px solid black;
+            
+        }
+        .navbar1{
+            height: 40px;
+           display: flex;
+           justify-content: space-between;
+            background-color: black;
+            color: white;
+             
+        }
+        .box1{
+            display: flex;
+            gap: 100px;
+           align-items: center;
+           padding-left: 10px;
+        }
+        ul{
+             list-style: none;
+           text-decoration: none;
+            display: flex;
+            gap: 70px;
+           
+        }
+        .box2{
+            display: flex;
+            background-color: blue;
+            padding-right: 10px;
+        }
+      .gender{
+        background-color: blue;
+      }
+      .navbar2{
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        background-color: 	#c99191;
+        align-items: center;
+
+      }
+     
+      button{
+        background-color: blue;
+        color: azure;
+       padding: 5px;
+        border: none;
+        width: 100px;
+        border-radius: 5px;
+      }
+     .menubar{
+        text-decoration: none;
+        color: white;
+     }
+     .menubar:hover{
+        color: blue;
+     }
+     .section{
+        text-align: center;
+        color: white;
+          height: auto;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+
+        
+     }
+     .cont1{
+        padding-top: 20px;
+        padding-left: 100px;
+     }
+     .cont{
+        padding-top: 50px;
+     }
+     .img{
+        width: 300px;
+        margin-right: 200px;
+     }
+     .btn2{
+        background: none;
+        width: 200px;
+        border:2px solid navy;
+        border-radius: 20px;
+     }
+     button:hover{
+       transform: scale(1.1se);
+        color: black;
+        background-color: rgb(248, 248, 248);
+     }
+     .btn2:hover{
+       transform: scale(1.1se);
+        color: black;
+        background-color: bisque;
+     }
+     .sec-1{
+        display: grid;
+        background-color: #f3f6f4;
+        grid-template-columns: auto;
+       text-align: center;
+       
+     }
+      .sec-2{
+        display: grid;
+        background-color: #f3f6f4;
+        grid-template-columns: auto;
+       text-align: center;
+       
+     }
+     .card{
+        gap: 20px;
+        display: grid; 
+        grid-template-columns: repeat(7, 1fr);
+        
+        overflow: scroll;
+     }
+       
+     .card2{
+        gap: 20px;
+        display: grid; 
+        grid-template-columns: repeat(7, 1fr);
+      
+        overflow: scroll;
+     }
+    
+     .span{
+        margin-top: 155px;
+        margin-left: 100px;
+     }
+    .icon{
+       margin-top: 155px;
+       margin-right: 100px;
+        
+    }
+     .stock{
+        font-style: italic;
+     }
+     .price{
+        color: blue;
+     }
+     footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+     }
+     .social{
+        display: flex;
+     }
+     span{
+        display: none;
+        padding: 0 10px;
+        background-color:	#c99191;
+     }
+     .span1{
+        display: none;
+        padding: 10px 10px;
+     }
+    
+     .mini-card1{
+        animation-direction: bottom;
+        width: 250px;
+        height: 300px;
+        background-color: #f0e7e7;
+        border-radius: 10px;
+     }
+    
+     .mini-card2{
+       padding-top: 30px;
+        width: 250px;
+        height: 270px;
+        background-color: #f0e7e7;
+        border-radius: 10px;
+     }
+     .mini-card3{
+        padding-top: 30px;
+        width: 250px;
+        height: 270px;
+        background-color: #f0e7e7;
+        border-radius: 10px;
+     }
+     .mini-card4{
+        padding-top: 65px;
+        width: 250px;
+        height: 235px;
+        background-color: #f0e7e7;
+        border-radius: 10px;
+     }
+    .mini-box{
+        animation-direction: bottom;
+        width: 250px;
+        padding-top: 20px;
+        height: 300px;
+        background-color: 	#f6ebeb	;
+        border-radius: 10px;
+     }
+     @media (max-width:1168px) {
+          ul{
+              display: none;
+          }
+          span{
+            display: block;
+            
+          }
+          .span1{
+            display: block;
+          }
+         .box2{
+            background:none;
+         }
+     }
+     @media (max-width:1168px) {
+           .section{
+            display: grid;
+              grid-template-columns: auto ;
+              justify-content: center;
+           } 
+          .sec-1{
+              display: grid;
+              grid-template-columns: auto ;
+              justify-content: center;
+          }
+          .card{
+              
+              grid-template-columns: auto;
+              justify-content: center;
+           
+          }
+          .card2{
+               grid-template-columns: auto;
+               justify-content: center;
+          }
+          footer{
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            text-align: center;
+          }
+          .social{
+                display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            gap: 20px;
+          }
+          .mini-box{
+             width: 550px;
+          }
+         .mini-card1{
+             width: 550px;
+         }
+       .mini-card2{
+             width: 550px;
+         }
+         .mini-card3{
+             width: 550px;
+         }
+         .mini-card4{
+             width: 550px;
+         }
+     }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar1">
+        <div class="box1">
+            <h1>Adiddas</h1>
+            <ul>
+                <li><a href="" class="menubar">Articles</a></li>
+                <li> <a href="" class="menubar">Shop</a></li>
+                <li> <a href="" class="menubar">Magazine</a></a></li>
+                <li> <a href="" class="menubar">Help</a></li>
+                
+            </ul>
+            <ul>
+                <li>John Doe</li>
+                <li>Cart(1)</li>
+            </ul>
+        </div>
+        <div class="box2">
+            
+            <ul class="gender">
+                <li>Men</li>
+                <li>Women</li>
+            </ul>
+            
+               
+        </div>
+         <span class="span1"><i class="fa-solid fa-bars" style="color: #63E6BE;"></i></span>
+         
+    </nav>
+     <nav class="navbar2">
+        <ul>
+            <li>POPULAR</li>
+            <li>MOST VIEWED</li>
+            <li>NEWEST</li>
+            <li>RANDOM</li>
+            <li class="search"> <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              </form></li>
+        </ul>
+     </nav>
+        <span> <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              </form></span>
+   </header>
+   <section class="section">
+         <div class="cont1">
+            <img class="img" src="./img.jpg" alt="">
+         </div>
+    
+         <div class="cont">
+        <h1>Crazy fast x Adidas</h1> 
+        <p>Following initial images released last week, we bring <br>you Crazy Fast collaboration with Adidas.</p>
+        <button class="btn2">WATCH THE VIDEO</button>
+         </div>      
+   </section>
+       <section class="sec-1">
+          <h1>Other Great Shoes</h1>
+                <p>Each shoe is based off  of a similar awsthetic as well as <br> being tallored to your general taste.</p>
+            
+             <div class="card">
+               <div class="mini-card1">
+                  <img width="100px" src="./a.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card1">
+                  <img width="100px" src="./a2.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card1">
+                  <img width="100px" src="./img-removebg-preview.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card1">
+                  <img width="100px" src="./img2-removebg-preview.png" alt="">
+                     <p class="price1">$230 <br>$300 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card2">
+                  <img width="100px" src="./img3-removebg-preview.png" alt="">
+                     <p class="price1">$170 <br>$200 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card3">
+                  <img width="100px" src="./img4-removebg-preview.png" alt="">
+                     <p class="price1">$300 <br>$350 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-card4">
+                  <img width="100px" src="./img5-removebg-preview.png" alt="">
+                     <p class="price1">$450 <br>$500 original price</p>
+                     <h5 class="heading">Runfalcon 3.0 Shoes <br>Running Shoes</p>
+                     <button>Buy Now</button>
+               </div>
+                
+              
+             </div>
+             </section>
+             
+              <section class="sec-2">
+                  <h1>Other T-Shirts </h1>
+                <p>Each T-Shirts is based off  of a similar awsthetic as well as <br> being tallored to your general taste.</p>
+             <div class="card2">
+                 
+                 <div class="mini-box">
+                  <img width="120px" src="./shirt-removebg-preview.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Adidas Sports T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="100px" src="./shirt2-removebg-preview.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Adidas Sports T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="145px" src="./shirt1-removebg-preview.png" alt="">
+                     <p class="price1">$129 <br>$200 original price</p>
+                     <h5 class="heading">Adidas Sports T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="145px" src="./shirt3-removebg-preview.png" alt="">
+                     <p class="price1">$230 <br>$300 original price</p>
+                     <h5 class="heading">Adidas Sports T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="145px" src="./shirt4-removebg-preview.png" alt="">
+                     <p class="price1">$170 <br>$200 original price</p>
+                     <h5 class="heading">Adidas Original T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="143px" src="./shirt5-removebg-preview.png" alt="">
+                     <p class="price1">$300 <br>$350 original price</p>
+                     <h5 class="heading">Adidas Original T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+               <div class="mini-box">
+                  <img width="140px" src="./shirt7-removebg-preview.png" alt="">
+                     <p class="price1">$450 <br>$500 original price</p>
+                     <h5 class="heading">Regular T-Shirts</p>
+                     <button>Buy Now</button>
+               </div>
+             </div>
+        </section>
+
+         <footer>
+            <p>COPYRIGHT &copy; ALL RIGHTS RESERVED 1015</p>
+            <p class="social"><i class="fa-brands fa-instagram" style="color: #05a3c0;"></i>
+         <i class="fa-brands fa-pinterest" style="color: #c413ac;"></i>
+         <i class="fa-brands fa-facebook" style="color: #3bff69;"></i>
+         <i class="fa-brands fa-twitter" style="color: #FFD43B;"></i>
+            </p>
+            <p>HELP / CUSTOMER SERVICE</p>
+         </footer>
+</body>
+</html>
